@@ -146,7 +146,7 @@ void mainmenu()
 	    default:
 		{
 		gotoxy(10,23);
-		printf("\aWrong Entry!!Please re-entered correct option");
+		printf("\aWrong Entry!!Please re-enter correct option");
 		if(getch())
 		mainmenu();
 		}
